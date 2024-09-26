@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Bento grid</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+
+  <link href="./output.css" rel="stylesheet">
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body class="font-Dans-Sans bg-gray-50 flex flex-col justify-center items-center min-h-screen  ">
+  <!--pq:max-w-[360px]-->
+
+  <div class=" md:grid md:gap-8 xl:grid-cols-4 md:grid-rows-10  md:h-[800px]  md:max-w-[1100px]  m-4 pq:max-w-[350px]  ">
+
+    <!--pq:flex pq:flex-col pq:max-w-[330px]--> 
+
+
+    <!--social media-->
+    <div class=" bg-Purple-500 col-span-2 row-span-4 md:col-start-2 row-start-1 rounded-lg p-10 text-center pq:h-[300px]  pq:mb-[20px] overflow-hidden">
+     <h1 class="text-white mb-5  md:text-[3.8rem]  leading-none font-medium pq:text-[45px]  ">Social Media <span class="text-yellow-500">10x </span><i>Faster</i> with AI</h1>
+      <img src="images/illustration-five-stars.webp" alt="" class="w-[10rem] md:ml-[9rem] mb-2 pq:ml-14 ">
+        <p class="text-white font-normal " >Over 4,000 5-star reviews</p>
+    </div>
+    <!--pq:w-[347px]-->
+   
+
+    <!--Manage multiple-->
+    <div class="bg-White md:row-span-3 col-start-2 row-start-4 rounded-md md:py-4 md:pl-[29px] overflow-hidden  md:h-full  pq:mb-[20px] pq:h-[160px] pq:pl-[15px] pq:py-[15px]">
+      <img src="images/illustration-multiple-platforms.webp" alt="" class="mb-[0.7rem] max-w-[303px]">
+      <h2 class=" md:w-[181px] leading-[26px] md:text-[29px] md:font-medium  text-Blackp pq:w-[97%] pq:text-[23px]">Manage multiple accounts and platforms.</h2>
+    </div>
+   
+    <!--Maintain a consistent-->
+    <div class="bg-Yellow-500 md:row-span-3 col-start-3 row-start-4 rounded-md overflow-hidden md:h-full md:py-4 md:pl-[29px] pq:mb-[20px] pq:pl-[15px] pq:py-[15px] pq:h-[200px]">
+      <h2 class=" md:w-[158px] md:text-[29px] font-medium  mb-3 leading-[26px]  text-Black pq:w-[80%] pq:text-[23px]">Maintain a consistent posting schedule.</h2>
+      <img src="images/illustration-consistent-schedule.webp" alt="" class="w-[193px] h-[140px] pq: ">
+    </div>
+
+    <!--pq:w-[347px] -->
+
+    
+    <!--Schedule to social media-->
+    <div class="bg-purple-100 row-span-7 col-start-4 row-start-1 rounded-md md:py-[2.5rem] md:h-full md:pl-[29px] overflow-hidden  pq:mb-[20px] pq:pl-[15px] pq:py-[30px]">
+      <h2 class=" md:w-[173px] md:text-[29px] md:ml-0 font-medium  mb-[20px] leading-[26px]  text-Black  pq:w-full pq:text-[23px] pq:ml-[24px]">Schedule to social media.</h2>
+      <img src="images/illustration-schedule-posts.webp" alt="" class=" md:max-w-[346px] mb-[20px]  pq:max-w-[94%]">
+      <p class="md:w-[163px] font-[16px] leading-pq-lose  pq:text-center pq:w-[80%] pq:ml-[20px]">Optimize post timings to publish content at the perfect time for your audience.</p>
+    </div>
+
+
+
+
+    <!--Grow followers-->
+    <div class=" bg-Purple-500 col-span-2 md:row-span-3 col-start-3 row-start-6 rounded-md md:py-4 md:pl-[29px] md:flex md:flex-row  pq:mb-[20px] pq:pl-[15px] pq:flex-col pq:py-[30px] ">
+      <img src="images/illustration-grow-followers.webp" alt="" class="w-[13rem] pq:ml-[60px] md:ml-0">
+      <h2 class="text-white text-[2.3rem]  leading-none font-medium mt-[40px] ml-[20px]  pq:w-[80%] pq:text-center pq:text-[31px]">Grow followers with non-stop content.</h2>
+    </div>
+
+
+
+    <!--faster audience -->
+    <div class="bg-White row-span-3 col-start-2 row-start-8 rounded-md md:py-4 md:pl-[29px] pq:mb-[20px] pq:pl-[15px] pq:py-[15px]  ">
+      <h2 class="text-black mb-[13px] md:text-[3.2rem] leading-none font-medium pq:text-[40px]">>56%</h2>
+      <p class="md:mb-[17px] pq:mb-[17px]">faster audience growth</p>
+      <img src="images/illustration-audience-growth.webp" alt="" class="max-w-[160px] ">
+    </div>
+
+
+    <!--Create and schedule-->
+    <div class="bg-yell md:row-span-5 md:col-start-1 md:row-start-1 rounded-md md:py-14 md:pl-[25px]   pq:mb-[20px] pq:pl-[15px] pq:py-8">
+      <h2 class="text-black mb-[20px] text-[2rem]  leading-none font-medium "  > Create and schedule content <span class=" text-Purple-500 italic">quicker.</span></h2>
+      <img src="images/illustration-create-post.webp" alt="" class="max-w-[175px]">
+    </div>
+
+
+    <!--Write your content using AI.-->
+    <div class="bg-Yellow-500 row-span-5 col-start-1 row-start-6 rounded-md md:py-4 md:pl-[25px] pq:mb-[20px] pq:pl-[15px] pq:py-6">
+      <h2 class="text-black md:mb-[38px] text-[2rem]  leading-none font-medium  md:w-[150px] pq:w-full  pq:mb-4">Write your content using AI.</h2>
+      <img src="images/illustration-ai-content.webp" alt="" class="max-w-[210px]">
+    </div>
+
+  </div>
+  
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
+      Coded by <a href="#">Armando Vargas</a>.
+    </div>
+  </footer>
+
+  
+
+  
+
+ 
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+ 
+</body>
+</html>
